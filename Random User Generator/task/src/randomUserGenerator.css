@@ -1,0 +1,65 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f1e3; /* Light pink background */
+    color: #3e2723; /* Dark brown text */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the main heading */
+h1 {
+    color: #d35400; /* Brown-orange color */
+}
+
+/* Styling for buttons */
+button {
+    background-color: #ffcccb; /* Light pink button */
+    color: #3e2723; /* Dark brown text */
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 12px; /* Rounded corners */
+}
+
+button:hover {
+    background-color: #ff9f80; /* Slightly darker pink on hover */
+}
+
+/* User container styling */
+.user {
+    background-color: #ffe6e6; /* Light pink background for users */
+    border: 2px solid #3e2723; /* Dark brown border */
+    border-radius: 15px; /* Rounded edges */
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    text-align: left;
+}
+
+/* Styling for user image */
+.photo {
+    border-radius: 50%; /* Circular image */
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Styling for user name */
+.name {
+    font-size: 1.5em;
+    color: #d35400; /* Brown-orange color for name */
+    text-align: center;
+}
+
+/* Styling for user details */
+.email, .password, .gender, .phone, .location, .birthday {
+    font-size: 1em;
+    color: #3e2723;
+    margin: 5px 0;
+}
+
+/* Styling for the saved users header */
+.saved {
+    color: #d35400;
+}
